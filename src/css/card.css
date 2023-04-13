@@ -1,0 +1,43 @@
+.card__container {
+  border-radius: 10px;
+  width: 262px;
+  height: 272px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.top__box {
+  background-color: #57c278;
+  width: 262px;
+  height: 91.9px;
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+  z-index: 1;
+}
+
+.img__card {
+  border-radius: 50%;
+  padding-top: 32px;
+  padding-bottom: 27.77px;
+  z-index: 9999;
+}
+
+.nombre__card {
+  color: #6278F7;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.profesion__card {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 31px 27px;
+  margin: 0;
+}
